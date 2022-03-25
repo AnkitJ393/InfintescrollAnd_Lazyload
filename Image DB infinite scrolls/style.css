@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+.container{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    gap: 1em;
+    margin:10%;
+    margin-bottom: 0;    
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+.loading{
+    border: 2px solid black;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 800;
+}
