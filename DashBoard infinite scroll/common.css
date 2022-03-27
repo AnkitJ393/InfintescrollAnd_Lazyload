@@ -16,10 +16,7 @@
   ::-webkit-scrollbar-thumb:hover {
     background: rgb(8, 138, 8);
   }
- 
-  .hide {
-    display: none;
-  }
+
   .scrollUp {
     background: linen;
     position: fixed;
