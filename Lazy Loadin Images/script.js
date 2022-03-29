@@ -8,6 +8,7 @@ const callback=(entries,observer)=>{
         entry.target.src=entry.target.dataset.src
         entry.target.addEventListener('load',()=>{
             entry.target.classList.remove('lazy-img');
+            console.log('remove blur')
             observer.unobserve(entry.target);
         });
         console.log('called')
